@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block title%} Solver Society G5 - Prediction {% endblock %}
+
+{%block content%}
+<div class="tm-row">
+    <div class="tm-col-right"></div>
+    <main class="tm-contact-main">
+        <section class="tm-content">
+            <h5 class="mb-5">To start the prediction process please input all the parameter needed below : </h5>
+            <form id="contact-form" action="" method="POST">
+                <div class="form-group mb-4">
+                    <input type="number" name="k_index" class="form-control text-uppercase" placeholder="k-index" min="-19.70" step="0.01" required = ""/>
+                </div>
+                <div class="form-group mb-4">
+                    <input type="number" name="cross_totals_index" class="form-control text-uppercase" placeholder="cross totals index" min="-6.30" step="0.01" required = "" />
+                </div>
+                <div class="form-group mb-4">
+                    <input type="number" name="showalter_index" class="form-control text-uppercase" placeholder="showalter index" min="-3.79" step="0.01" required = "" />
+                </div>
+                <div class="form-group mb-4">
+                    <input type="number" name="lifted_index" class="form-control text-uppercase" placeholder="lifted index" min="-29.26" step="0.01" required = "" />
+                </div>
+                <div class="form-group mb-4">
+                    <input type="number" name="convective_available_potential_energy" class="form-control text-uppercase" placeholder="convective available potential energy" min="0.00" step="0.01" required = "" />
+                </div>
+                <div class="form-group mb-4">
+                    <input type="number" name="dewpoint_1000_hpa" class="form-control text-uppercase" placeholder="dewpoint 1000 hpa" min="3.40" step="0.01" required = "" />
+                </div>
+                <div class="form-group mb-4">
+                    <input type="number" name="dewpoint_850_hpa" class="form-control text-uppercase" placeholder="dewpoint 850 hpa" min="-9.00" step="0.01" required = "" />
+                </div>
+                <div class="form-group mb-4">
+                    <input type="number" name="dewpoint_700_hpa" class="form-control text-uppercase" placeholder="dewpoint 700 hpa" min="-9.80" step="0.01" required = "" />
+                </div>
+                <div class="form-group mb-4">
+                    <input type="number" name="dewpoint_500_hpa" class="form-control text-uppercase" placeholder="dewpoint 500 hpa" min="-9.90" step="0.01" required = "" />
+                </div>
+                <div class="text-right mb-4">
+                    <input type="submit" value="START PREDICTION" href = "result"> 
+                    <button type="reset" onclick="document.location.reload()">RESET SUBMISSION</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</div> 
+{% endblock %}

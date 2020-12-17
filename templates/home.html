@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title%} Solver Society G5 - Home {% endblock %}
+
+{%block content%}
+<div class="tm-row">
+    <div class="tm-col-left"></div>
+    <main class="tm-col-right">
+        <section class="tm-content">
+            <h2 class="mb-5 tm-content-title text-uppercase"> An Automatic Short Term Rain Forecast</h2>
+            <p class="mb-5">This project was made using upper air data from the University of Wyoming website containing the atmosphere lability index data. Additional data was taken from the BMKG aviation meteorology API, which reported in half-hourly intervals by the regional meteorological station studied at Hasanuddin Makassar airport regarding the rain occurrence.</p>
+            <hr class="mb-4">
+            <p class="mb-5">The prediction measures the probability number of an event. Meaning the more the probability number or percentage, the more likely that the event will occur.</p>                        
+            <a href="predict" class="btn btn-primary">START PREDICTION</a>
+        </section>
+    </main>
+</div>
+{% endblock %}

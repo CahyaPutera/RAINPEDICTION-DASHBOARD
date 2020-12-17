@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title%} Solver Society G5 - Result {% endblock %}
+
+{%block content%}
+<div class="tm-row">
+    <div class="tm-col-right"></div>  
+    <h1 class="tm-content-title">{{ results }}</h1>
+</div>     
+<div class="tm-row">
+    <div class="tm-col-left"></div>
+    <a href="predict" class="btn btn-primary">RESTART PREDICTION</a>
+</div>
+{% endblock %}

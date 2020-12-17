@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block title%} Solver Society G5 - About {% endblock %}
+
+{%block content%}
+<div class="tm-row">
+    <div class="tm-col-left"></div>
+    <main class="tm-col-right">
+        <section class="tm-content tm-about">
+            <h2 class="mb-5 tm-content-title">About The Project</h2>
+            <hr class="mb-4">
+            <div class="media my-3">
+                <i class="fas fa-shapes fa-3x p-3 mr-4"></i>
+                <div class="media-body">
+                    <p>This project aims to build a Machine Learning algorithm to predict rainfall for IYKRA Solver Society's study purposes only.</p>
+                </div> 
+            </div>
+            <div class="media my-3">
+                <i class="fas fa-draw-polygon fa-3x p-3 mr-4"></i>
+                <div class="media-body">
+                    <p>The data processed was taken from the University of Wyoming website for the upper air atmosphere lability index, and BMKG aviation meteorology API for the rainfall occurrences.</p>
+                </div> 
+            </div>
+            <div class="media my-3">
+                <i class="fab fa-creative-commons-share fa-3x p-3 mr-4"></i>
+                <div class="media-body">
+                    <p>For the next development, suggested to input several feature such as physical numerical models, satellite images and radar image for better modelling purposes.</p>
+                </div> 
+            </div>           
+        </section>
+    </main>
+</div>        
+{% endblock %}
