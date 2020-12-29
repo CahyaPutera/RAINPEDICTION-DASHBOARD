@@ -1,8 +1,8 @@
-# Solver-RainPrediction
+# AUTOMATIC RAIN PREDICTION DASHBOARD 
 
-This repo is for dashboard only.
+This repo is for dashboard only. 
 
-For exploration, and modelling refers to : https://github.com/CahyaPutera/RainPrediction-Modelling
+For data exploration and modelling refers to : https://github.com/CahyaPutera/RainPrediction-Modelling
 
 For webscraping, and data gathering refers to : https://github.com/CahyaPutera/olah_wyoming
 
