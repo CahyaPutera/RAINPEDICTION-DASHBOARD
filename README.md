@@ -10,6 +10,6 @@ For data exploration and modelling refers to : https://github.com/CahyaPutera/Ra
 
 For data gathering refers to : https://github.com/CahyaPutera/olah_wyoming
 
-Finished **Dashboard** can be viewed on : https://solversociety-rainprediction.herokuapp.com
+Finished **Dashboard** can be viewed on : [https://rain-prediction-iykra.onrender.com](https://rain-prediction-iykra.onrender.com)
 
 HTML5 CSS templates by TemplateMo : https://templatemo.com
